@@ -1,25 +1,14 @@
-# Python
 __pycache__/
-*.py[cod]
+*.pyc
 .venv/
-venv/
-.pytest_cache/
-
-# SQLite databases
 *.db
-*.db-wal
-*.db-shm
-*.sqlite
-*.sqlite3
-
-# Logs and temporary files
+*.db-*
+*.sqlite*
+*.zst
+*.zip
 *.log
-*.tmp
-*.bak
-.DS_Store
-
-# Downloaded corpora
-sources/
-corpora/
-downloads/
-data/
+source-license-review.csv
+/corpora/
+/data/
+/releases/
+/sources/
